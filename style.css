@@ -1,10 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .top {
     background-image: url(img/Rectangle\ 1.jpg );
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 1440px;
-    
+    padding-bottom: 494px;
 }
 .container {
     max-width: 1024px;
@@ -29,6 +32,8 @@
     display: flex;
     align-items: center;
     color: #FFFFFF;
+    padding-top: 218px;
+    width: 600px;
 }
 .main__text {
     font-family: 'Montserrat';
@@ -36,7 +41,38 @@
     font-weight: 300;
     font-size: 18px;
     line-height: 32px;
-    display: flex;
-    align-items: center;
     color: #FFFFFF;
+    width: 400px;
+    padding-top: 32px;
+}
+.form {
+    padding-top: 44px;
+}
+.footer {
+    background-image: url(img/footerbg.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 556px;
+}
+.game-items {
+    display: flex;
+    gap: 32px;
+    padding: 128px 0 128px 0;
+    list-style: none;
+    
+}
+.game-box {
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0231.jpg);
+    border-radius: 16px;
+    position: relative;
+}
+.box-name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
 }
