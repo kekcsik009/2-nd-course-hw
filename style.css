@@ -1,6 +1,42 @@
-.header {
+.top {
     background-image: url(img/Rectangle\ 1.jpg );
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 1440px;
+    
+}
+.container {
+    max-width: 1024px;
+    margin: 0 120px 0 120px;
+}
+.button {
+    background: #9C0332;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 235px;
+    height: 46px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.main__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.main__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
 }
