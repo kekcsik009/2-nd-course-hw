@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Homework1</title>
 </head>
@@ -16,15 +19,28 @@
         <button type="submit" class="button">Поехали!</button>
     </form>
     </header>
-    
     </div>
-    <div class="games">
-        <ul class="game-items container">
-            <li class="game-box"><img src="img/Rectangle 6.png" alt="game1"> <p class="box-name">Игра 1 </p></li>
-            <li class="game-box"><img src="img/Rectangle 7.png" alt="game2"> <p class="box-name">Игра 2 </p></li>
-            <li class="game-box"><img src="img/Rectangle 8.png" alt="game3"> <p class="box-name">Игра 3 </p></li>
-        </ul>
-    </div>
+    <main>
+        <section class="games">
+            <ul class="games-items container">
+                <li class="games-box"><img class="games__img" src="img/Rectangle 6.png" alt="game1"> <p class="box-name">Игра 1 </p></li>
+                <li class="games-box"><img class="games__img" src="img/Rectangle 7.png" alt="game2"> <p class="box-name">Игра 2 </p></li>
+                <li class="games-box"><img class="games__img" src="img/Rectangle 8.png" alt="game3"> <p class="box-name">Игра 3 </p></li>
+            </ul>
+        </section>
+        <section class="seasons">
+            <div class="container container_seasons">
+                <div class="seasons__content">
+                    <h2 class="seasons__title">Времена года!</h2>
+                    <p class="seasons__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+                    <form class="form__seasons" action="#">
+                        <button type="submit" class="button">Играть</button>
+                    </form>
+                </div>
+                <img class="seasons__img" src="img/undraw_video_game_night_8h8m 1.png" alt="изображение джостика и наушников, с изображением парня справа и девушкой слева">        
+            </div>
+        </section>
+    </main>
     <script src="hw-2.js"></script>
    </body>
 </html>
