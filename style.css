@@ -51,8 +51,10 @@
 .form {
   padding-top: 44px;
 }
-
 .form__seasons {
+  padding-top: 32px;
+}
+.form__remember {
   padding-top: 32px;
 }
 
@@ -111,6 +113,29 @@
 }
 .seasons__content {
   width: 50%;
+}
+
+.remember {
+  background: #000915;
+}
+.remember__title {
+  font-weight: 700;
+  padding-bottom: 32px;
+}
+.remember__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
+.remember__content {
+  width: 50%;
+}
+
+.container_remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 240px 0;
 }
 
 @media (max-width: 375px) {
@@ -174,6 +199,32 @@
     margin-bottom: 64px;
   }
   .container_seasons {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .remember__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 32px;
+  }
+  .remember__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .remember__img {
+    width: 100%;
+  }
+  .remember__content {
+    width: 100%;
+    text-align: center;
+  }
+  .form__remember {
+    padding-top: 32px;
+    margin-bottom: 64px;
+  }
+  .container_remember {
     flex-direction: column;
     padding: 50px 0;
   }
