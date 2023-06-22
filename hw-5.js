@@ -92,6 +92,37 @@
 // } 
 // printMessage();
 // Задание 5
-function name(params) {
-    
-}
+// function check(first,second) {
+//   if (isNaN(first) || isNaN(second)) {
+//     return console.log('Одно или оба значения не являются числом');
+//   }  
+//   else {
+//     let mult = first* second;
+//     console.log(`Введенные вами значения являются числами их произведение: - ${mult}`);
+//     return mult;
+//   }
+// }
+// check (2,5)
+// check (2,'daasd')
+// Задание 6
+// let cube = (number) => {
+//     if (isNaN(number)===false){
+//         let result = number**3;
+//         return(`${number} в кубе равнается ${result}`)
+//     } else {
+//         return('Переданный параметр не является числом')
+//     }  
+// }
+// console.log(cube(0));
+// console.log(cube(1));
+// console.log(cube(2));
+// console.log(cube(3));
+// console.log(cube(4));
+// console.log(cube(5));
+// console.log(cube(6));
+// console.log(cube(7));
+// console.log(cube(8));
+// console.log(cube(9));
+// console.log(cube(10));
+// console.log(cube('dwdw'));
+
