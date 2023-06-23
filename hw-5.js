@@ -145,21 +145,63 @@
 //       return 2 * Math.PI * radius;
 //     }
 //   };
-function season(monthNumber) { 
-    if (monthNumber >= 1 && monthNumber <=2 || monthNumber === 12) {
-        return console.log('Winter');
-    }  else if (monthNumber>= 3 && monthNumber <= 5){
-        return monthNumber, console.log('Summer');
-    }  else if (monthNumber>= 6 && monthNumber <= 8){
-        return monthNumber, console.log('Spring');
-    }  else if ( monthNumber>= 9 && monthNumber <= 11){
-        return monthNumber, console.log('Аutumn');
-    }  else {
-        return console.log('Такого месяца не существует');
-    } 
-    } 
-season(3);
-season(6);
-season(7);
-season(11);
+// function season(monthNumber) { 
+//     if (monthNumber >= 1 && monthNumber <=2 || monthNumber === 12) {
+//         return monthNumber, console.log('Winter');
+//     }  else if (monthNumber>= 3 && monthNumber <= 5){
+//         return monthNumber, console.log('Summer');
+//     }  else if (monthNumber>= 6 && monthNumber <= 8){
+//         return monthNumber, console.log('Spring');
+//     }  else if ( monthNumber>= 9 && monthNumber <= 11){
+//         return monthNumber, console.log('Аutumn');
+//     }  else {
+//         return console.log('Такого месяца не существует');
+//     } 
+//     } 
+// season(1);
+// season(3);
+// season(6);
+// season(7);
+// season(11);
 
+function season(monthNumber) {
+    if (!isNaN(monthNumber) && monthNumber >=0 && monthNumber <=12)  {
+        if (monthNumber >= 1 && monthNumber <=2 || monthNumber === 12) {
+            return  console.log('Winter');
+        }  else if (monthNumber>= 3 && monthNumber <= 5){
+            return console.log('Summer');
+        }  else if (monthNumber>= 6 && monthNumber <= 8){
+            return console.log('Spring');
+        }  else  {
+            return  console.log('Аutumn');
+        } 
+    } else {
+        return console.log('Такого месяца не существует');
+    }
+}
+
+season(13);
+season(-2);
+season(4);
+season(6);
+season('2wdaw');
+
+// function season(monthNumber) {
+//     if (!isNaN(monthNumber) && monthNumber > 0 && monthNumber < 12) {
+//         if (monthNumber >= 1 && monthNumber <=2 || monthNumber === 12) {
+//             return console.log('Winter');
+//         }  else if (monthNumber>= 3 && monthNumber <= 5){
+//             return console.log('Summer');
+//         }  else if (monthNumber>= 6 && monthNumber <= 8){
+//             return console.log('Spring');
+//         }  else if ( monthNumber>= 9 && monthNumber <= 11){
+//             return  console.log('Аutumn');
+//         }
+//     } else {
+//         return console.log('Такого месяца не существует');
+//     }
+// }
+
+// season(-1);
+// season('kjh');
+// season(13);
