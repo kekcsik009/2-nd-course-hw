@@ -125,4 +125,41 @@
 // console.log(cube(9));
 // console.log(cube(10));
 // console.log(cube('dwdw'));
+// Задание 7 
+// const circle1 = {
+//     radius: 5,
+//     getArea() {
+//       return Math.PI * radius ** 2;
+//     },
+//     getPerimeter() {
+//       return 2 * Math.PI * radius;
+//     }
+//   };
+  
+//   const circle2 = {
+//     radius: 10,
+//     getArea() {
+//       return Math.PI * radius ** 2;
+//     },
+//     getPerimeter() {
+//       return 2 * Math.PI * radius;
+//     }
+//   };
+function season(monthNumber) { 
+    if (monthNumber >= 1 && monthNumber <=2 || monthNumber === 12) {
+        return console.log('Winter');
+    }  else if (monthNumber>= 3 && monthNumber <= 5){
+        return monthNumber, console.log('Summer');
+    }  else if (monthNumber>= 6 && monthNumber <= 8){
+        return monthNumber, console.log('Spring');
+    }  else if ( monthNumber>= 9 && monthNumber <= 11){
+        return monthNumber, console.log('Аutumn');
+    }  else {
+        return console.log('Такого месяца не существует');
+    } 
+    } 
+season(3);
+season(6);
+season(7);
+season(11);
 
