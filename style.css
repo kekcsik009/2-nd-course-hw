@@ -30,6 +30,10 @@
   color: #FFFFFF;
 }
 
+.button:hover {
+  cursor: pointer;
+}
+
 .main__title {
   font-weight: 700;
   font-size: 64px;
@@ -77,6 +81,12 @@
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0231.jpg);
   border-radius: 16px;
   position: relative;
+}
+
+.games-box:hover {
+  background: rgba(0, 0, 0, 0);
+  color: #3a7999;
+  box-shadow: inset 0 0 0 3px #3a7999;
 }
 
 .games__img {
