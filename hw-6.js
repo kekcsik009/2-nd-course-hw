@@ -54,4 +54,27 @@
 // const flat = array.flat(Infinity);
 // console.log(flat);
 // Задание 10
-
+// const random = [6,6,9,2]
+// for (let x = 0; x<random.length-1; x++) {
+//     let sum = random[x]+ (random[x+1]);
+//     console.log(sum);
+// }
+// Задание 11
+// const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+//
+// const squares = nums.map(function (num) {
+//   return num * num
+// })
+//
+// console.log(squares)
+// Задание 12
+// function lengthSrt(array) {
+//     return array.map (el => {
+//         console.log(el.length);
+//     });
+    
+// }
+// lengthSrt(['день', '', 'на', 'Прекрасно прогулялись сегодня', 'и']);
+// Задание 13 
+// const filterPositive = (array) => array.filter(el => el < 0);
+// console.log(filterPositive([-12,10,5,-6,56]));
