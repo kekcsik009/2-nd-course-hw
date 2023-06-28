@@ -1,2 +1,10 @@
-const filterPositive = (array) => array.filter(el => el < 0);
-console.log(filterPositive([-12,10,5,-6,56]));
+let array = [];
+for (let i = 0; i < 3; i++)
+{
+    array[i] = [];
+    for (let j = 0; j <3; j++)
+    {
+        array[i][j] = 1;
+    }
+}
+console.log(array)

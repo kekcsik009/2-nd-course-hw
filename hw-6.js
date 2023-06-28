@@ -8,11 +8,7 @@
 // }
 // Задание 2
 // const array = [1, 5, 4, 10, 0, 3];
-// for (let item of array) {
-//     if (item===4) {
-//         console.log(array.indexOf(4))
-//     }
-// }
+// console.log(array.indexOf(4))
 // Задание 3
 // const array = [1, 3, 5, 10, 20];
 // console.log(array.join(' '));
@@ -20,12 +16,13 @@
 // let array = [];
 // for (let i = 0; i < 3; i++)
 // {
-//     array[i] = [1,1,1];
-//     for (let j = 3; j <= i; j++)
+//     array[i] = [];
+//     for (let j = 0; j <3; j++)
 //     {
-//         array[i][j] = j + 1;
+//         array[i][j] = 1;
 //     }
 // }
+// console.log(array)
 // console.log(array);
 // Задание 5
 // const array = [1,1,1];
@@ -41,8 +38,6 @@
 // for (let item of array) {
 //     if (item===number) {
 //       alert('Угадал');
-//     } else {
-//       alert('Не угадал');
 //     }
 // }
 // Задание 8 
@@ -68,13 +63,8 @@
 //
 // console.log(squares)
 // Задание 12
-// function lengthSrt(array) {
-//     return array.map (el => {
-//         console.log(el.length);
-//     });
-    
-// }
-// lengthSrt(['день', '', 'на', 'Прекрасно прогулялись сегодня', 'и']);
+// const lengthSrt = (array) => array.map (el => el.length); 
+// console.log(lengthSrt(['день', '', 'на', 'Прекрасно прогулялись сегодня', 'и']));
 // Задание 13 
 // const filterPositive = (array) => array.filter(el => el < 0);
 // console.log(filterPositive([-12,10,5,-6,56]));
