@@ -1,18 +1,18 @@
-Задание 1
-let str = 'js';
-console.log(str.toUpperCase());
+// Задание 1
+// let str = 'js';
+// console.log(str.toUpperCase());
 // Задание 2
-const searchStart =(['яблоко', 'груша', 'гриб', 'огурец'], 'гру'); 
-console.log([...new Set(searchStart.map(el => el.toLowerCase()))]);
+// const searchStart =(['яблоко', 'груша', 'гриб', 'огурец'], 'гру'); 
+// console.log([...new Set(searchStart.map(el => el.toLowerCase()))]);
 // Задание 3
 // console.log(123.098876.toFixed(2));
 // console.log(123.098876.toFixed());
 // console.log(123.098876.toFixed(3));
 // Задание 4
 
-const array =[52, 53, 49, 77, 21, 32];
-return array.Math.min().Math.max();
-console.log(array.Math.min());
+// const array =[52, 53, 49, 77, 21, 32];
+// return array.Math.min().Math.max();
+// console.log(array.Math.min());
 
  
     Array.max = function( array ){
