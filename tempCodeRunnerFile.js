@@ -1,10 +1,13 @@
-let array = [];
-for (let i = 0; i < 3; i++)
-{
-    array[i] = [];
-    for (let j = 0; j <3; j++)
-    {
-        array[i][j] = 1;
-    }
-}
-console.log(array)
+const date = new Date(2014, 11, 31, 12, 30, 0);
+console.log(date.toTimeString());
+  let options = {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    weekday: 'long',
+    timezone: 'UTC',
+    hour: 'numeric',
+    minute: 'numeric',
+    second: 'numeric'
+  };
+console.log(date.toLocaleString(options.day));
