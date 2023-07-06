@@ -118,5 +118,4 @@
  
 // delayForSecond(() => { 
 //   sayHi('Глеб'); 
- 
 // });
